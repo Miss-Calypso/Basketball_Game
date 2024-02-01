@@ -343,7 +343,7 @@ srand(time(NULL));
                 cin.clear();
                 cin.ignore();
             }
-        } while(money_ball_position < 1 || money_ball_position > 99);
+        } while(shooting_ability < 1 || shooting_ability > 99);
 
         total_point_player_1 += player_output(money_ball_position,shooting_ability);
 
@@ -382,7 +382,7 @@ srand(time(NULL));
                 cin.clear();
                 cin.ignore();
             }
-        } while(money_ball_position < 1 || money_ball_position > 99);
+        } while(shooting_ability < 1 || shooting_ability > 99);
 
         total_point_player_2 += player_output(money_ball_position,shooting_ability);
 
